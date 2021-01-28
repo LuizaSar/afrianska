@@ -251,3 +251,66 @@ ul, ol {
 	width: 422px;
 	height: 417px;
 }
+
+.client {
+	background-image: url(../images/client-rect.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:96px 0px 994px;
+}
+
+.client__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 850px;
+	margin-bottom: 150px;
+}
+.client__header-title {
+	font-size: 36px;
+	line-height: 46px;
+	color: #FFFFFF;
+	width: 227px;
+}
+.client__header-text {
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+   opacity: 0.6;
+   width: 500px;
+}
+.client__wrap-upper,
+.client__wrap-bottom
+ {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.client__item-upper {
+	padding: 42px;
+	color: #fff;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	transition: all ease 0.3s;
+}
+.client__item-bottom
+ {
+	padding: 42px;
+	color: #fff;
+	border-right: 1px solid #FFFFFF;
+	transition: all ease 0.3s;
+}
+.client__item-more {
+	 padding: 42px 59px 0px 60px;
+    border-right: none;
+    transition: all ease 0.3s;
+}
+ .client__item-4 {
+ 	border-right: none;
+ }
+ .client__item-upper:hover,
+ .client__item-bottom:hover,
+ .client__item-more:hover
+ {
+ 	background-color: rgba(31,63,104, 0.2);
+ }
