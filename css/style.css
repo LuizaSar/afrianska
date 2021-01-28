@@ -1,3 +1,8 @@
+
+/*{font-family: 'Gilroy', sans-serif;}
+{font-family: 'Galien', sans-serif;}
+*/
+
 *,
 *::after,
 *::before{
@@ -6,8 +11,8 @@
 
 body{
   margin: 0;
-  font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -23,3 +28,70 @@ ul, ol {
 	margin: 0;
 	padding: 0;
 }
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+} 
+
+.header {
+	padding: 56px 87px 170px;
+	background-image: url(../images/Rectangle.png);
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__menu-logo {
+	width: 48px;
+	height: 32px;
+}
+.header__menu-hamb {
+	width: 24px;
+	height: 16px;
+}
+.header__hero {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.header__hero-text {
+	width: 510px;
+	margin-left: 125px;
+	margin-top: 110px; 
+}
+.header__hero-title {
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 74px;
+	color: #1F3F68;
+	width: 580px;
+}
+.header__hero-sub {
+	font-size: 16px;
+	line-height: 26px;
+	color: #1F3F68;
+	opacity: 0.6;
+	width: 400px;
+	margin: 32px 0 71px;
+}
+.header__hero-button a {
+	font-size: 16px;
+	line-height: 56px;
+	color: #FFFFFF;
+}
+.header__hero-button{
+	background-color: #5A98D0;
+	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+	border-radius: 10px;
+	width: 220px;
+	height: 56px;
+	text-align: center;
+}
+.header__hero-image {
+	position: absolute;
+	right: -50px;
+	top: 60px;
+}
+
