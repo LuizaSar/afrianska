@@ -177,3 +177,77 @@ ul, ol {
    border-radius: 10px;
    margin-bottom: 100px;
 }
+
+.project {
+	padding-bottom: 190px;
+}
+
+.project__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 850px;
+}
+.project__header-title {
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+	color: #1F3F68;
+	width: 227px;
+}
+.project__header-text {
+	font-size: 16px;
+	line-height: 26px;
+	color: #1F3F68;
+   opacity: 0.6;
+   width: 500px;
+}
+.project__background {
+	background-image: url(../images/project.png);
+	width: 940px;
+	height: 417px;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	margin: 96px 0;
+}
+.project__background__title {
+	font-size: 28px;
+	line-height: 46px;
+	color: #FFFFFF;
+	padding: 48px 48px 8px 0;
+}
+.project__background__sub {
+	font-size: 16px;
+	line-height: 46px;
+	color: #FFFFFF;
+	opacity: 0.8;
+	padding-right: 48px;
+}
+.project__apps {
+	display: flex;
+	justify-content: space-between;
+}
+.project__app1 {
+	background-image: url(../images/app1.png);
+	width: 422px;
+	height: 417px;
+}
+.project__app-title {
+	font-size: 28px;
+	line-height: 46px;
+	color: #FFFFFF;
+	padding: 24px 0 4px 32px;
+}
+.project__app-sub {
+	font-size: 16px;
+	line-height: 46px;
+	color: #FFFFFF;
+   opacity: 0.8;
+   padding-left: 32px;
+}
+.project__app2 {
+	background-image: url(../images/app2.png);
+	width: 422px;
+	height: 417px;
+}
